@@ -1,0 +1,312 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000000; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+.button{
+    width: 7.5%;
+    border: 3px black solid;
+    padding: 1%;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.button:hover{
+    transition: 0.3s;
+    border-color: #60d169;
+    background-color: #60d169;
+}
+.navbar-nav{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+header{
+    justify-content: space-around;
+}
+header li{
+    color: #60d169;
+}
+header h2{
+    color: white;
+}
+.container{
+    color: white;
+}
+hr{
+    width: 50px;
+    height: 6px;
+    background-color: #60d169;
+    border-width: 0px;
+    margin: auto;
+    opacity: 1;
+}
+.container span{
+    color: #60d169;
+}
+.indicator {
+    margin: auto;
+    margin-top: 5%;
+    width: 3.125rem;
+    height: 3.125rem;
+    transform: rotate(45deg);
+}
+.indi2 {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55%;
+    height: 55%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    animation: animate 1s linear infinite;
+    }
+    .indicator :nth-child(1) {
+        animation-delay: 0s;
+        top: 30%;
+        left: 30%;
+    }
+    .indicator :nth-child(2) {
+        top: 60%;
+        left: 60%;
+        animation-delay: 0.2s;
+    }
+    .indicator :nth-child(3) {
+        top: 90%;
+        left: 90%;
+        animation-delay: 0.4s;
+    }
+    
+@keyframes animate {
+0% {
+    border-color: #fff;
+    transform: translate(0, 0);
+}
+20% {
+    border-color: #fff;
+    transform: translate(0.9375rem, 0.9375rem);
+}
+20.1%,
+100% {
+    border-color: #60d169;
+}
+}
+#me{
+    background-color: #F0F2F5;
+}
+.navbar-nav li a{
+    text-decoration: none;
+    color: #60d169;
+    transition: 0.3s;
+}
+.navbar-nav li a:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+
+#me p{
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#Portfolio{
+    color : white;
+}
+.col p{
+    color: #60d169;
+    font-weight: 600;
+}
+.grid-image{
+    max-width: 75%;
+    height: auto;
+    box-shadow: 0px 0px 6px 3px #60d169;
+    border: 1px solid #60d169;
+}
+#Formation{
+    background-color: #F0F2F5;
+}
+#Formation H2{
+    color: #000000;
+}
+#CV H2{
+    color: #fff;
+}
+#Contact{
+    background-color: #F0F2F5;
+}
+#email, #name{
+    border: 1px solid #939597 ;
+    background-color: #F0F2F5;
+    border-radius: 5px;
+}
+#Contact textarea{
+    border: 1px solid #939597 ;
+    background-color: #F0F2F5;
+    border-radius: 0.5rem;
+}
+#submit{
+    border: 1px solid #60d169;
+    background-color: #60d169;
+    border-radius: 0.5rem;
+    padding: 2%;
+    
+}
+.button2{
+    width: 7.5%;
+    padding: 1%;
+    filter: invert(100%) sepia(59%) saturate(2662%) hue-rotate(52deg) brightness(101%) contrast(64%);
+    transition: 0.3s;
+}
+.button2:hover{
+    transition: 0.5s;
+    filter: invert(100%);
+}
+.button3{
+    width: 5%;
+    padding: 1%;
+    filter: invert(100%) sepia(59%) saturate(2662%) hue-rotate(52deg) brightness(101%) contrast(64%);
+    transition: 0.3s;
+}
+.button3:hover{
+    transition: 0.5s;
+    filter: invert(100%);
+}
+/* The actual timeline (the vertical ruler) */
+.main-timeline {
+    position: relative;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .main-timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: #939597;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .timeline {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: #939597;
+    border: 5px solid #60d169;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    padding: 0px 40px 20px 0px;
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    padding: 0px 0px 30px 40px;
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #60d169;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #60d169;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #60d169;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #60d169 transparent transparent;
+    margin-right: 40px;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -12px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 610px) {
+    .navbar-expand-lg{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .button{
+        width: 15%;
+    }
+    .button2{
+        width: 20%;
+    }
+    .button3{
+        width: 15%;
+    }
+    /* Place the timelime to the left */
+    .main-timeline::after {
+      left: 31px;
+    }
+  
+    /* Full-width containers */
+    .timeline {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+      left: 18px;
+    }
+  
+    .left::before {
+      right: auto;
+    }
+  
+    /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+  }
